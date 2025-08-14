@@ -25,7 +25,7 @@ int main()
 
      do
     {
-      printf("Esquerda\n", i);
+      printf("Esquerda\n");
       i++;
      } while (i < 8);
 
