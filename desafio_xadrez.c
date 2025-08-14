@@ -3,31 +3,31 @@
 int main()
 {
     // Mover a torre 5 casas para a direita
-     for (int i = 0; i < 5; i++)
-      {
-     printf("Direita\n"); // Imprime a direção do movimento
-      }
+   //  for (int i = 0; i < 5; i++)
+     // {
+   //  printf("Direita\n"); // Imprime a direção do movimento
+    //  }
 
     // Mover o bispo 5 casas na diagonal para cima á direita
 
-   // int i = 0;
+    int i = 0;
 
-  //  while (i < 5)
-  //  {
+    while (i < 5)
+    {
 
-    //    printf("Para cima á direita\n", i);
+       printf("Para cima á direita\n", i);
 
-      //  i++;
-//    }
+       i++;
+   }
 
     // Mover a rainha 8 casas á esquerda
-    // int i = 0;
+   //  int i = 0;
 
-    // do
-    // {
+   //  do
+   //  {
     //  printf("Esquerda\n", i);
     //  i++;
-    // } while (i < 8);
+   //  } while (i < 8);
 
     return 0;
 }
