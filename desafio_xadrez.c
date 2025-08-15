@@ -34,14 +34,16 @@ int main()
       
      
      
-     for (int k = 0; k < 2; k++ ) {
-        printf("Baixo\n"); // Imprimir "Baixo" duas vezes
+     for (int i = 0; i < 2; i++) {
+        printf("Cavalo move para Baixo\n"); // Imprimir "Baixo" duas vezes
      
-     k++;
-      printf("Esquerda\n"); // Imprimir "Esquerda" uma vez
+     
+      
      }
      
-     
+     for (int j = 0; j < 1; j++){
+      printf("Cavalo move para Esquerda\n"); // Imprimir "Esquerda" uma vez
+     } j++;
 
     return 0;
 }
