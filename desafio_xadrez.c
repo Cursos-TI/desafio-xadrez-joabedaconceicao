@@ -32,7 +32,7 @@ int main()
 
      // Controlar o movimento do cavalo em L,duas casas pra cima e uma casa á direita
   
-     
+     int j = 0;
      while (int j = 0; j < 1; j++)
      {
       printf("Cavalo move para Baixo\n"); // Imprimir "Esquerda" uma vez
