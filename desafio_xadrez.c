@@ -21,7 +21,7 @@ int main()
    }
 
     // Mover a rainha 8 casas á esquerda
-    int i = 0;
+    
 
      do
     {
@@ -30,15 +30,16 @@ int main()
      } while (i < 8);
 
      // Controlar o movimento do cavalo em L,duas casas pra cima e uma casa á direita
-      int movimentoCompleto;
+      int movimentoCompleto = 2;
       
-     while (movimentoCompleto--)
+     while (movimentoCompleto)
      {
      for (int i = 0; i < 2; i++ ) {
-        printf("Cima\n"); // Imprimir "Cima" duas vezes
+        printf("Baixo\n"); // Imprimir "Baixo" duas vezes
      }
-      printf("Direita\n"); // Imprimir "Direita" uma vez
+      printf("Esquerda\n"); // Imprimir "Esquerda" uma vez
      }
+     i++;
      
 
     return 0;
