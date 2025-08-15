@@ -1,7 +1,17 @@
 #include <stdio.h>
+// Estruturas de repetição
+void moverTorre(int casas) {
+  if (casas > 0) {
+    printf("Direita\n");
+    moverTorre(casas - 1);
+  }
+}
 
 int main()
 {
+
+  moverTorre(5);
+  
     // Mover a torre 5 casas para a direita
     for (int i = 0; i < 5; i++)
       {
@@ -30,9 +40,9 @@ int main()
      } while (j < 8);
 
 
-     // Controlar o movimento do cavalo em L,duas casas pra cima e uma casa á direita
+     // Controlar o movimento do cavalo em L,duas casas pra Baixo e uma casa á Esquerda
   
-     int j = 0;
+     
      while (int j = 0; j < 1; j++)
      {
       printf("Cavalo move para Baixo\n"); // Imprimir "Esquerda" uma vez
