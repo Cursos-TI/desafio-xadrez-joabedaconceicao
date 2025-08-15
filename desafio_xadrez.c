@@ -21,25 +21,26 @@ int main()
    }
 
     // Mover a rainha 8 casas á esquerda
-    
+    int j = 0;
 
      do
     {
-      printf("Esquerda %d\n", i + 1);
-      i++;
-     } while (i < 8);
+      printf("Esquerda %d\n", j + 1);
+      j++;
+     } while (j < 8);
 
      // Controlar o movimento do cavalo em L,duas casas pra cima e uma casa á direita
-      int movimentoCompleto = 2;
       
-     while (movimentoCompleto)
-     {
-     for (int i = 0; i < 2; i++ ) {
+      
+     
+     
+     for (int k = 0; k < 2; k++ ) {
         printf("Baixo\n"); // Imprimir "Baixo" duas vezes
-     }
+     
+     k++;
       printf("Esquerda\n"); // Imprimir "Esquerda" uma vez
      }
-     i++;
+     
      
 
     return 0;
