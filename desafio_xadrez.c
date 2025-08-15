@@ -29,5 +29,17 @@ int main()
       i++;
      } while (i < 8);
 
+     // Controlar o movimento do cavalo em L,duas casas pra cima e uma casa á direita
+      int movimentoCompleto;
+      
+     while (movimentoCompleto--)
+     {
+     for (int i = 0; i < 2; i++ ) {
+        printf("Cima\n"); // Imprimir "Cima" duas vezes
+     }
+      printf("Direita\n"); // Imprimir "Direita" uma vez
+     }
+     
+
     return 0;
 }
