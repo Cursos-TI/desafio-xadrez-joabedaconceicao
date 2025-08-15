@@ -1,5 +1,6 @@
 #include <stdio.h>
 // Estruturas de repetição
+
 void moverTorre(int casas) {
   if (casas > 0) {
     printf("Direita\n");
@@ -11,7 +12,7 @@ int main()
 {
 
   moverTorre(5);
-  
+
     // Mover a torre 5 casas para a direita
     for (int i = 0; i < 5; i++)
       {
